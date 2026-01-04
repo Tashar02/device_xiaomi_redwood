@@ -41,6 +41,9 @@ blob_fixups: blob_fixups_user_type = {
         .sig_replace('29 07 00 94', '1F 20 03 D5'),
     'vendor/lib64/hw/com.qti.chi.override.so' : blob_fixup()
         .add_needed('libprocessgroup_shim.so'),
+    'vendor/lib64/libmialgoengine.so' : blob_fixup()
+        .remove_needed('android.hardware.graphics.allocator@3.0.so')
+        .remove_needed('vendor.qti.hardware.display.allocator@3.0.so'),
     ('vendor/lib64/libalAILDC.so', 'vendor/lib64/libalLDC.so', 'vendor/lib64/libalhLDC.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
