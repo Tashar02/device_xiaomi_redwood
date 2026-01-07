@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/redwood-miuicamera/device.mk)
 
 PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
     libutilscallstack.vendor
 
 # Display
