@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: Tashfin Shakeer Rhythm
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.launcher3.resources.redwood">
+    <overlay android:targetPackage="com.android.launcher3" android:priority="800" android:isStatic="true" />
+</manifest>
