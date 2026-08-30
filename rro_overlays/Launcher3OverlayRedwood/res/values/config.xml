@@ -5,4 +5,5 @@
 -->
 <resources>
     <dimen name="max_depth_blur_radius_enhanced">15dp</dimen>
+    <dimen name="folder_blur_radius">12dp</dimen>
 </resources>
