@@ -7,6 +7,9 @@
     <!-- the padding of the rounded corner -->
     <dimen name="rounded_corner_content_padding">19dp</dimen>
 
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">3dp</dimen>
+
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
          config_screenBrightnessMaximumNits, the display brightness is defined as the measured
